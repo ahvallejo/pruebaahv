@@ -9,7 +9,7 @@ import scraperwiki
 import lxml.html as lh 
 
 
-for letra in range(ord("o"),ord("z")+1):
+for letra in range(ord("a"),ord("n")+1):
     pmiurl = "https://certification.pmi.org/registry.aspx"
     br = mechanize.Browser()
     response = br.open(pmiurl)
